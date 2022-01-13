@@ -1,0 +1,54 @@
+* body {
+  box-sizing: border-box;
+  margin: 0;
+  color: #fff;
+}
+
+ul,li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
+  opacity: 50%;
+  padding: 30px;
+}
+
+/* nav */
+.port_nav {
+  background-color: #af3e47;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.port_nav_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.port_nav_menu_item {
+  margin-right: 30px;
+}
+
+/* profile */
+
+.port_profile {
+  background-color:#323436;
+  margin: 0;
+}
+
+.port_profile_title {
+  height: 500px;
+  font-size: 80px;
+  text-align:center;
+  margin: 0;
+}
